@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    width:35px;
+    height: 30px;
+}
+
+.namebox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+
+}
+
+button {
+    padding: 8px;
+    height: 30px;
+    border-radius: 20%;
+    font-weight: 500;
+    border: transparent;
+}
+
+.name {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    font-weight: 550;
+
+}
+
+.container {
+    margin: 0 15%;
+}
+
+
+.openings {
+   padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+\\ to put hover
+
+.buttonbox {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    max-width: 130px;
+   
+}
+
+.allboxes {
+    padding-top: 20px;
+    
+}
+
+.gridbox {
+    
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 10px;
+
+    
+}
+
+.gridbox > * {
+    border: 1px solid red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.gridbox img {
+    height: 50px;
+    background-image: url(Images/gridbox.jpg);
+}
