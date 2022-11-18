@@ -72,21 +72,48 @@ button {
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: repeat(3, 1fr) ;
-    gap: 10px;
+    gap: 20px;
+    
+    
 
     
 }
 
 .gridbox > * {
     border: 1px solid red;
-    padding: 20px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 10px;
-
+    border-radius: 5%;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 325px;
 }
 
 .gridbox img {
-    height: 50px;
+    height: 120px;
     background-image: url(Images/gridbox.jpg);
+}
+
+.cardbox-inside {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+
+.cardbox-inside h1 {
+    font-size: 20px;
+
+}
+
+.gridbox-btn {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
