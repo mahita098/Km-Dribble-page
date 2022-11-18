@@ -26,10 +26,11 @@ header {
 
 button {
     padding: 8px;
-    height: 30px;
+    
     border-radius: 20%;
     font-weight: 500;
     border: transparent;
+    width: auto;
 }
 
 .name {
@@ -117,3 +118,11 @@ button {
     flex-direction: row;
     gap: 10px;
 }
+
+.gridbox-btn button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+    
