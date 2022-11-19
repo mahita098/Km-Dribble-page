@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -29,8 +33,15 @@ button {
     
     border-radius: 20%;
     font-weight: 500;
-    border: transparent;
+    border: 1px solid rgb(204, 191, 191);
+    outline: none;
     width: auto;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: red;
 }
 
 .name {
@@ -68,6 +79,10 @@ button {
     
 }
 
+.allboxes p {
+    color: rgb(121, 111, 111);
+}
+
 .gridbox {
     
     display: grid;
@@ -81,7 +96,7 @@ button {
 }
 
 .gridbox > * {
-    border: 1px solid red;
+    border: 1px solid rgb(236, 228, 228);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -125,4 +140,99 @@ button {
     gap: 10px;
     
 }
+ 
+
+.box1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.box1 h1 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+
+.box1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+
+
+
+.box1 .plus_btn {
+    width: 45px;
+    border: dotted;
+    color: rgb(228, 217, 217);
     
+
+}
+
+
+.box1 .create_btn {
+    width: 120px;
+    font-size: 18px;
+    border-radius: 9%;
+      
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
