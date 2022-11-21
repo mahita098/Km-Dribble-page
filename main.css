@@ -30,24 +30,32 @@ header {
 
 button {
     padding: 8px;
-    
     border-radius: 20%;
     font-weight: 500;
     border: 1px solid rgb(204, 191, 191);
     outline: none;
     width: auto;
     background-color: white;
+    cursor: pointer;
+    box-shadow: 0 2px #999;
 }
 
 button:hover {
     cursor: pointer;
-    border-color: red;
+    /* border-color: red; */
+    background-color: #abb1ab
 }
+
+.button:active {
+    background-color: #6a6e6a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .name {
     position: absolute;
     right: 60px;
-    top: 20px;
+    top: 25px;
     font-weight: 550;
 
 }
@@ -62,17 +70,30 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+
 }
 
-\\ to put hover
-
-.buttonbox {
+.btnbox {
+   
     display: flex;
-    justify-content: center;
-    border: 1px solid grey;
-    max-width: 130px;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    max-width: 155px;
+    background-color: rgb(238, 237, 237);
+    margin-left: 10px;
+    padding: 5px 1px;
+    border-radius: 10%;
    
 }
+
+.btnbox button {
+    background-color: white;
+    padding: 10px 15px;
+    
+}
+
 
 .allboxes {
     padding-top: 20px;
@@ -81,6 +102,7 @@ button:hover {
 
 .allboxes p {
     color: rgb(121, 111, 111);
+    
 }
 
 .gridbox {
@@ -91,8 +113,10 @@ button:hover {
     gap: 20px;
     
     
+}
 
-    
+.gridbox:hover {
+    cursor: pointer;
 }
 
 .gridbox > * {
@@ -110,6 +134,15 @@ button:hover {
 .gridbox img {
     height: 120px;
     background-image: url(Images/gridbox.jpg);
+    transition: transform 400ms;
+}
+
+  {
+
+}
+
+.gridbox .box2:hover img {
+    transform: scale(1.2);
 }
 
 .cardbox-inside {
@@ -164,9 +197,6 @@ button:hover {
 }
 
 
-
-
-
 .box1 .plus_btn {
     width: 45px;
     border: dotted;
@@ -174,6 +204,7 @@ button:hover {
     
 
 }
+
 
 
 .box1 .create_btn {
