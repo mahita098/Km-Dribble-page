@@ -35,7 +35,7 @@ header {
 
 button {
     padding: 8px;
-    border-radius: 20%;
+    border-radius: 10px;
     font-weight: 500;
     border: 1px solid rgb(204, 191, 191);
     outline: none;
@@ -80,6 +80,12 @@ button:hover {
 
 }
 
+.openings p {
+    color: rgb(121, 111, 111);
+    font-size: 20px;
+
+}
+
 .btnbox {
    
     display: flex;
@@ -88,9 +94,10 @@ button:hover {
     flex-shrink: 1;
     max-width: 180px;
     background-color: rgb(238, 237, 237);
+    border-radius: 10px;
     
-    padding: 5px 1px;
-    border-radius: 10%;
+    padding: 5px 2px;
+    
 }
 
 .btnbox button {
@@ -101,6 +108,7 @@ button:hover {
     padding: 10px 15px;
     font-weight: 600;
     font-size: 16px;
+    border-radius: 10px;
     
 }
 
@@ -151,10 +159,6 @@ button:hover {
     height: 120px;
     background-image: url(Images/gridbox.jpg);
     transition: transform 400ms;
-}
-
-  {
-
 }
 
 .gridbox .box2:hover img {
@@ -230,7 +234,7 @@ button:hover {
 .box1 .create_btn {
     width: 120px;
     font-size: 18px;
-    border-radius: 9%;
+    
       
 
 }
