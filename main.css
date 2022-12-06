@@ -42,7 +42,7 @@ button {
     width: auto;
     background-color: white;
     cursor: pointer;
-    box-shadow: 0 2px #999;
+    box-shadow: 0 0.2px #999;
 }
 
 button:hover {
@@ -76,6 +76,7 @@ button:hover {
     gap: 20px;
     width: 100%;
     padding-bottom: 10px;
+    font-size: 22px;
 
 }
 
@@ -85,7 +86,7 @@ button:hover {
     flex-direction: row;
     flex-grow: 0;
     flex-shrink: 1;
-    max-width: 155px;
+    max-width: 180px;
     background-color: rgb(238, 237, 237);
     
     padding: 5px 1px;
@@ -98,6 +99,8 @@ button:hover {
     border: transparent;
     box-shadow: none;
     padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
     
 }
 
